@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/assets/fonts/Helvetica.woff');
+}
+.ap-container {
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: 'Helvetica';
+}
+
+.ap-container .ap-album-cover img {
+  width: 100%;
+}
+
+.ap-controls {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: space-between;
+}
+
+.ap-controls-left {
+  align-self: flex-start;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.ap-controls-right {
+  align-self: stretch;
+  flex: 1;
+}
+.ap-controls-left i:hover,
+.ap-controls-left i {
+  min-height: 20px;
+  min-width: 26px;
+  height: 20px;
+  width: 26px;
+  cursor: pointer;
+}
+
+.ap-controls-left i.ap-step-backward {
+  content: url('/assets/images/back_idle.png');
+}
+
+.ap-controls-left i.ap-step-backward:hover {
+  content: url('/assets/images/back_hover.png');
+}
+
+.ap-controls-left i.ap-step-forward {
+  content: url('/assets/images/forward_idle.png');
+}
+
+.ap-controls-left i.ap-step-forward:hover {
+  content: url('/assets/images/forward_hover.png');
+}
+
+.ap-controls-left i.ap-step-forward,
+.ap-controls-left i.ap-step-forward:hover,
+.ap-controls-left i.ap-step-backward,
+.ap-controls-left i.ap-step-backward:hover {
+  min-height: 20px;
+  min-width: 26px;
+}
+.ap-controls-left i.ap-play,
+.ap-controls-left i.ap-pause {
+  margin: 0 15px;
+  min-height: 20px;
+  min-width: 16px;
+  width: 16px;
+}
+
+.ap-controls-left i.ap-play {
+  content: url('/assets/images/play_idle.png');
+}
+
+.ap-controls-left i.ap-play:hover {
+  content: url('/assets/images/play_hover.png');
+}
+
+.ap-controls-left i.ap-pause {
+  content: url('/assets/images/pause_idle.png');
+}
+
+.ap-controls-left i.ap-pause:hover {
+  content: url('/assets/images/pause_hover.png');
+  cursor: pointer;
+}
+
+.ap-progress {
+  height: 2px;
+  background-color: #6fb89b;
+}
+
+.ap-progress-container {
+  height: 2px;
+  margin: calc(0.5em - 1px) 0;
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+
+.ap-artist .ap-artist-name {
+  text-align: left;
+  width: 50%;
+  display: inline-block;
+}
+
+.ap-artist .ap-timeleft {
+  text-align: right;
+  width: 50%;
+  display: inline-block;
+}
+
+.ap-album-name {
+  text-align: left;
+}
