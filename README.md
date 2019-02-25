@@ -21,3 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ### Reference
 <hr/>
 [HTML5 Audio](https://www.w3schools.com/tags/ref_av_dom.asp)
+
+
+### Demo
+https://harshmakani.github.io/audio-player-app/
