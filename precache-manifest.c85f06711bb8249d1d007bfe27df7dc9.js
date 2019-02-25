@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/audio-player-app/static/css/main.24b1f888.chunk.css"
   },
   {
-    "revision": "64fe62d0bad1800caeabec59505fca12",
+    "revision": "2e204cfe5ddd3d21684d636e25421b37",
     "url": "/audio-player-app/index.html"
   }
 ];
